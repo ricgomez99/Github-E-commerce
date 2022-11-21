@@ -1,0 +1,37 @@
+.menu {
+  background-color: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px #aaaa;
+  justify-content: space-around;
+}
+
+.menu > div {
+  display: flex;
+}
+
+.link {
+  display: block;
+  padding: 20px 15px;
+}
+
+.link:hover {
+  color: #bbbb;
+  text-decoration: underline;
+}
+
+.cart_btn {
+  padding: 10px 16px;
+  background: transparent;
+  color: #354259;
+  border: 2px solid #354259;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cart_btn:hover {
+  border: none;
+  color: #fff;
+  background: #354259;
+}
